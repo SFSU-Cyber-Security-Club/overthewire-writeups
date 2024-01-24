@@ -1,0 +1,2 @@
+openssl req -newkey rsa:2048 -nodes -keyout ./private_lol.pem -x509 -days 365 -out ./cert_lol.cert
+openssl s_server -accept 1337 -cert ./cert_lol.cert -key ./private_lol.pem

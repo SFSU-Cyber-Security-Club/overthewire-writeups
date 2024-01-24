@@ -10,7 +10,7 @@ You have the option to use a caeser cipher tool online, or you can use the follo
 
 tr a-zA-Z n-za-mN-ZA-M {filename}
      |        |
-     |     what it shifts to
+     |     what it shifts to, ex n turns to a and z turns to m, same with capitals
   originates to  
 
 not expected to learn the exact syntax since it's pretty annoyingly specific
